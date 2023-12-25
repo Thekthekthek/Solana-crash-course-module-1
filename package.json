@@ -1,0 +1,19 @@
+{
+  "name": "SolanaCrashCourse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@coral-xyz/borsh": "^0.29.0",
+    "@solana-developers/node-helpers": "^1.2.1",
+    "@solana/web3.js": "^1.87.6",
+    "dotenv": "^16.3.1"
+  }
+}
